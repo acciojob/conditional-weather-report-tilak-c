@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WeatherDisplay = (data) => {
+const WeatherDisplay = ({data}) => {
     const {temperature,conditions}=data;
     return (
     <>
